@@ -6,6 +6,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://customdomain.moneytronicswag.com"
+  to = "https://www.google.com"
   force = true
   status = 301
