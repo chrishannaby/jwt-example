@@ -11,5 +11,9 @@ export async function handler(event, context) {
       Authorization: `jwt ${jwt}`,
     },
   });
-  return response;
+  const body = await response.text();
+  return {
+    statusCode: response.status,
+    body,
+  };
 }
