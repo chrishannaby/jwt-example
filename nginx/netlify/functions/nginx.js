@@ -8,9 +8,9 @@ const jwt = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 export async function handler(event, context) {
   console.log(event);
   const response = await fetch(`https://${proxyUrl}${event.path}`, {
-    headers: new Headers({
+    headers: {
       Authorization: `jwt ${jwt}`,
-    }),
+    },
   });
   return response;
 }
