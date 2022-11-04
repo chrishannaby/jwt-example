@@ -8,4 +8,4 @@
   from = "/*"
   to = "https://customdomain.moneytronicswag.com"
   force = true
-  status = 401
+  status = 301
