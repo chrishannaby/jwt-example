@@ -3,3 +3,6 @@
   to = "/.netlify/functions/nginx/:splat"
   force = true
   status = 200
+
+[functions]
+  node_bundler = "esbuild"
