@@ -1,11 +1,11 @@
 [[redirects]]
-  from = "/*"
+  from = "/"
   force = true
   status = 200
   conditions = {Role = ["nginx"]}
 
 [[redirects]]
   from = "/*"
-  to = "https://www.google.com"
+  to = "/noauth"
   force = true
   status = 301
