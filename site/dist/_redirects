@@ -1,0 +1,2 @@
+/auth/* /auth/:splat 200! Role=*
+/auth/* /noauth 301
