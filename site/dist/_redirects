@@ -1,3 +1,2 @@
-/auth/ /auth/ 200! Role=admin
-/auth/* /auth/:splat 200! Role=admin
-/auth/* /noauth 301
+/* /:splat 200! Role=*
+/* https://www.netlify.com 302!
