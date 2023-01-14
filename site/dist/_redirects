@@ -1,3 +1,2 @@
-/ / 200! Role=admin
-/* /:splat 200! Role=admin
-/* https://www.google.com 401
+/* /:splat 200! Role=*
+/* https://www.netlify.com 302!
