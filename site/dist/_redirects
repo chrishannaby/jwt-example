@@ -1,2 +1,2 @@
-/auth/* /auth/:splat 200! Role=admin
-/auth/* /noauth 401
+/* /:splat 200! Role=admin
+/* https://www.google.com 401
